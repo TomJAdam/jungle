@@ -41,6 +41,10 @@ gem 'faker'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'rspec-rails', '~> 3.5'
   gem 'byebug'
   gem 'quiet_assets'
